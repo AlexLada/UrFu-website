@@ -205,7 +205,7 @@ export default function CardBox({}) {
               Лада Александр
             </h2>
 
-            <p class="mt-1 text-xl text-gray-300">Дизайнер интерфейса сайта.</p>
+            <p class="mt-1 text-xl text-gray-300">Frontend - Программист</p>
           </a>
 
           <div className="xl:col-end-3  md:col-end-3 col-span-1">
@@ -235,7 +235,7 @@ export default function CardBox({}) {
                 Филиппов Кирилл
               </h2>
 
-              <p class="mt-1 text-xl text-gray-300">Frontend - Программист</p>
+              <p class="mt-1 text-xl text-gray-300">Дизайнер интерфейса сайта.</p>
             </a>
           </div>
         </div>
