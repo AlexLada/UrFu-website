@@ -1,0 +1,63 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #1c2227;
+  font-size: 20px;
+
+
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    font-family: 'Oswald', sans-serif;
+    background: #F0F8FF;
+    font-size: 20px;
+}
+}
+
+#__next {
+  min-height: 100vh;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+}
+
+main {
+  padding: 20px;
+}
+
+
+header h1 {
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left,#ff5900,40%,#45036f );
+  color: transparent;
+  background-clip: text;
+  
+ 
+}
+
+header h2 {
+  font-size: 25px;
+  
+  font-weight: 600;
+  background-image: linear-gradient(to left,#C0C0C0,100%,#000000 );
+  color: transparent;
+  background-clip: text;
+  margin-top: 3%;
+  
+ 
+}
+
+
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+    
